@@ -1,0 +1,33 @@
+#/bin/bash
+mkdir /home/greyhat/level1-1
+mkdir /home/greyhat/level1-2
+mkdir /home/greyhat/level1-3
+touch /home/greyhat/ReM_+0O=6vE
+mkdir /home/greyhat/level1-1/level2-1
+touch /home/greyhat/level1-1/level2-1/move.me-NOw
+mkdir /home/greyhat/level1-1/move\ into\ here
+touch /home/greyhat/level1-1/level2-1/remove\ me
+touch /home/greyhat/level1-1/move\ into\ here/rename.me
+mkdir /home/greyhat/level1-2/level2-2
+mkdir /home/greyhat/level1-3/\ remove.me\
+touch /home/greyhat/level1-3/\ remove.me\ /.remove.me1
+touch /home/greyhat/level1-3/\ remove.me\ /remove.me2.c
+mkdir /home/greyhat/level1-2/level-start
+touch "/home/greyhat/level1-2/level-start/hello world"
+touch "/home/greyhat/level1-2/level-start/good morning world"
+touch "/home/greyhat/level1-2/level-start/good night world"
+touch "/home/greyhat/level1-2/level-start/good afternoon world"
+touch "/home/greyhat/level1-2/level-start/good execute world"
+touch "/home/greyhat/level1-2/level-start/am i a folder1"
+mkdir "/home/greyhat/level1-2/level-start/am i a folder2"
+mkdir "/home/greyhat/level1-2/level-start/am i a folder3.java"
+mkdir "/home/greyhat/level1-2/level-start/whats in me"
+touch "/home/greyhat/level1-2/level-start/whats in me/me.exe"
+chmod 600 "/home/greyhat/level1-2/level-start/hello world"
+chmod 641 "/home/greyhat/level1-2/level-start/good morning world"
+chmod 632 "/home/greyhat/level1-2/level-start/good night world"
+chmod 665 "/home/greyhat/level1-2/level-start/good afternoon world"
+chmod 777 "/home/greyhat/level1-2/level-start/good execute world"
+chown -R greyhat:greyhat /home/greyhat
+chown -R root:root "/home/greyhat/level1-2/level-start/whats in me"
+chmod go-rwx /home/greyhat/level1-2/level-start/whats\ in\ me
